@@ -1,0 +1,13 @@
+{
+  "name": "food-rescue-network",
+  "version": "1.0.0",
+  "description": "Full-Stack DBMS Project for Food Rescue Network (IIIT Surat 3rd Sem)",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "author": "IIIT Surat - 3rd Sem DBMS Team",
+  "license": "ISC"
+}
